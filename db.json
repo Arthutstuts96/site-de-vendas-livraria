@@ -1,0 +1,19 @@
+{
+    "livros":[
+        {
+            "nome": "Asas",
+            "autor": "Arthur",
+            "preco": 22.50
+        },
+        {
+            "nome": "Negras",
+            "autor": "Lima",
+            "preco": 30.00
+        },
+        {
+            "nome": "Caiam",
+            "autor": "Duarte",
+            "preco": 16.00
+        }
+    ]
+}

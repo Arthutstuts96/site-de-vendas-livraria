@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Spicy+Rice&display=swap');
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Header */
+.cabecalho{
+    background-color: #123456;
+}
+.cabecalho__itens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+}
+.cabecalho .fa-cart-shopping{
+    font-size: 24px;
+}
+.cabecalho .fa-book-open{
+    font-size: 36px;
+    color: #7eaa18;
+}
+.logo-nome{
+    color: #fff;
+    font-family: "Poller One", sans-serif;
+}
+.barra__pesquisa{
+    display: flex;
+    align-items: center;
+}
+.input__pesquisar{
+    width: 256px;
+    padding: 8px 8px 8px 4px;
+    border: #c3c3c3;
+    border-radius: 8px 0 0 8px;
+}
+.barra__pesquisa .fa-magnifying-glass{
+    color: #383838;
+    font-size: 15px;
+    background-color: #c3c3c3;
+    padding: 8px 16px 8px 16px;
+    border-radius: 0 8px 8px 0;
+}
+.input__pesquisar::placeholder{
+    font-style: italic;
+}
+/* Main  */
+.titulo__corpo__principal{
+    text-align: center;
+    font-size: 42px;
+    font-family: "Spicy rice", sans-serif;
+    padding: 24px 12px 0 12px;
+}
+/* Lista de filtros  */
+.lista__filtros{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 24px;
+    padding: 16px;
+    overflow-x: auto;
+}
+.item__filtro{
+    background-color: #e6e6e6;
+    cursor: pointer;
+    font-size: 28px;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+/* Lista de livros  */
+.lista__livros{
+    display: grid;
+    grid-template-columns: repeat(4, 332px);
+}
+.livro{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px 36px;
+}
+.adicionar-carrinho{
+    position: absolute;
+    cursor: pointer;
+    top: 8px;
+    right: 24px;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+}
+.titulo__livro{
+    text-align: center;
+    font-size: 32px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.descricao__livro{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.autor__livro{
+    font-size: 14px;
+}
+.preco__livro{
+    font-size: 28px;
+}
+
+

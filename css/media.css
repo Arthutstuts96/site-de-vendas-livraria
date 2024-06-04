@@ -1,0 +1,8 @@
+@media(max-width: 634px){
+    .input__pesquisar, .barra__pesquisa .fa-magnifying-glass{
+        display: none;
+    }
+    .lista__livros{
+        grid-template-columns: 332px;
+    }
+}

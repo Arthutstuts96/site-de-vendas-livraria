@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- RESET CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ESTILOS  -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Mercado</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__itens">
+            <div class="logo">
+                <span class="logo-nome">Livraria</span>
+                <i class="fa-solid fa-book-open"></i>
+            </div>
+            <div class="barra__pesquisa">
+                <input type="text" placeholder="Pesquisar livro" class="input__pesquisar">
+                <i class="fa-solid fa-magnifying-glass" id="lupa-pesquisar"></i>
+            </div>
+            <i class="fa-solid fa-cart-shopping" id="carrinho-de-compras"></i>
+        </div>
+    </header>
+    <main class="corpo__principal">
+        <h1 class="titulo__corpo__principal">Tudo de melhor da literatura direto na sua casa!</h1>
+        <section class="filtros__pesquisa">
+            <ul class="lista__filtros">
+                <li class="item__filtro">Tudo</li>
+                <li class="item__filtro">Preço</li>
+                <li class="item__filtro">Categoria</li>
+                <li class="item__filtro">Estoque</li>
+                <li class="item__filtro">Autor</li>
+                <li class="item__filtro">Emanema</li>
+            </ul>
+        </section>
+        <ul class="lista__livros">
+            <li class="livro">
+                <button class="adicionar-carrinho">+</button>
+                <img src="https://www.ober-surfaces.com/cache/images/product/34173cb38f07f89ddbebc2ac9128303f-1244-oberflex_purepapercolor_skin_darkblue020_detail.jpg" 
+                alt="Imagem da capa do livro" width="225" height="300">
+                <p class="titulo__livro">Título do livro</p>
+                <div class="descricao__livro">
+                    <p class="autor__livro">Autor do livro</p>
+                    <p class="preco__livro">R$00,00</p>
+                </div>
+            </li>
+            <li class="livro">
+                <button class="adicionar-carrinho">+</button>
+                <img src="https://www.ober-surfaces.com/cache/images/product/34173cb38f07f89ddbebc2ac9128303f-1244-oberflex_purepapercolor_skin_darkblue020_detail.jpg" 
+                alt="Imagem da capa do livro" width="225" height="300">
+                <p class="titulo__livro">Título do livro</p>
+                <div class="descricao__livro">
+                    <p class="autor__livro">Autor do livro</p>
+                    <p class="preco__livro">R$00,00</p>
+                </div>
+            </li>
+            <li class="livro">
+                <button class="adicionar-carrinho">+</button>
+                <img src="https://www.ober-surfaces.com/cache/images/product/34173cb38f07f89ddbebc2ac9128303f-1244-oberflex_purepapercolor_skin_darkblue020_detail.jpg" 
+                alt="Imagem da capa do livro" width="225" height="300">
+                <p class="titulo__livro">Título do livro</p>
+                <div class="descricao__livro">
+                    <p class="autor__livro">Autor do livro</p>
+                    <p class="preco__livro">R$00,00</p>
+                </div>
+            </li>
+            <li class="livro">
+                <button class="adicionar-carrinho">+</button>
+                <img src="https://www.ober-surfaces.com/cache/images/product/34173cb38f07f89ddbebc2ac9128303f-1244-oberflex_purepapercolor_skin_darkblue020_detail.jpg" 
+                alt="Imagem da capa do livro" width="225" height="300">
+                <p class="titulo__livro">Título do livro</p>
+                <div class="descricao__livro">
+                    <p class="autor__livro">Autor do livro</p>
+                    <p class="preco__livro">R$00,00</p>
+                </div>
+            </li>
+        </ul>
+    </main>
+
+    <script src="./app/main.js" type="module"></script>
+</body>
+</html>
