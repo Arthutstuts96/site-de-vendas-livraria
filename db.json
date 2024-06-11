@@ -1,19 +1,28 @@
 {
     "livros":[
         {
-            "nome": "Asas",
-            "autor": "Arthur",
-            "preco": 22.50
+            "nome": "As crônicas de Nárnia",
+            "autor": "Por C.S. Lewis",
+            "preco": 22.50,
+            "imagem": "./imagens/cronicas-de-narnia.jpg",
+            "categoria": "fantasia",
+            "estoque": 3
         },
         {
-            "nome": "Negras",
-            "autor": "Lima",
-            "preco": 30.00
+            "nome": "O senhor dos anéis: As duas torres",
+            "autor": "Por J.R.R. Tolkien",
+            "preco": 30.00,
+            "imagem": "./imagens/as-duas-torres.jpg",
+            "categoria": "fantasia",
+            "estoque": 0
         },
         {
-            "nome": "Caiam",
-            "autor": "Duarte",
-            "preco": 16.00
+            "nome": "Antologias de design",
+            "autor": "Por Calvin Cheng",
+            "preco": 16.00,
+            "imagem": "./imagens/design-anthology.jpg",
+            "categoria": "design",
+            "estoque": 2
         }
     ]
 }

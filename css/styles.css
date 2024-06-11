@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Spicy+Rice&display=swap');
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -59,12 +58,11 @@ body{
     justify-content: space-evenly;
     align-items: center;
     gap: 24px;
-    padding: 16px;
+    padding: 24px;
     overflow-x: auto;
 }
 .item__filtro{
     background-color: #e6e6e6;
-    cursor: pointer;
     font-size: 28px;
     padding: 8px 16px;
     border-radius: 8px;
@@ -81,9 +79,11 @@ body{
     align-items: center;
     margin: 8px 36px;
 }
+.livro img{
+    border-radius: 4px;
+}
 .adicionar-carrinho{
     position: absolute;
-    cursor: pointer;
     top: 8px;
     right: 24px;
     padding: 3px 10px;
@@ -94,8 +94,9 @@ body{
 }
 .titulo__livro{
     text-align: center;
-    font-size: 32px;
-    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    font-family: sans-serif;
+    padding: 4px;
 }
 .descricao__livro{
     display: block;
@@ -108,5 +109,30 @@ body{
 .preco__livro{
     font-size: 28px;
 }
-
-
+/* Hover  */
+.cabecalho .fa-cart-shopping:hover{
+    cursor: pointer;
+    animation-name: aumentar-e-girar;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes aumentar-e-girar{
+    from{transform: scale(1) rotate(0); color: #000;}
+    to{transform: scale(1.7) rotate(25deg); color: #a0a0a0;}
+}
+.item__filtro:hover{
+    cursor: pointer;
+    animation-name: escurecer-background;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+.adicionar-carrinho:hover{
+    cursor: pointer;
+    animation-name: escurecer-background;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+@keyframes escurecer-background{
+    from{background-color: #e6e6e6;}
+    to{background-color: #acacac;}
+}
